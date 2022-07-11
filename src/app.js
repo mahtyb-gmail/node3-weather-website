@@ -5,6 +5,8 @@ const geocode = require("./utils/geocode");
 const forecast = require("./utils/forecast");
 
 const app = express();
+
+// Get correct port for url request from Heroku
 const port = process.env.PORT || 3000;
 
 // Define paths for Express config
